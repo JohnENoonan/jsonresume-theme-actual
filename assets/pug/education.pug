@@ -7,3 +7,5 @@ if helper.validArray(resume.education)
           div(class='title markdown')!=helper.mdToHtml(helper.beautifyArray(', ', [edu.studyType, edu.area]))
           span(class='institution margin-text-1')
             a(href=edu.url)=edu.institution
+          span(class='title')=helper.calcDateRange(edu.startDate, edu.endDate)
+          span(class='title')=edu.score
