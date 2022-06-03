@@ -1,120 +1,88 @@
 {
 	"$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
 	"basics": {
-		"name": "Richard Hendrik",
-		"label": "Software Developer",
-		"email": "rhendriks@mail.com",
-		"phone": "(912) 555-4321",
-		"url": "http://richardh.example.com",
-		"summary": "Richard hails from [tulsa](https://en.wikipedia.org/wiki/Tulsa,_Oklahoma). Holds a bachelor's degree from the *University of Oklahoma* and a master's degree from *Stanford University*. (Go Sooners) Before starting **Pied Piper**, he worked for **Hooli** as a part time software developer. While his work focuses on *applied information theory*, mostly *optimizing lossless compression* schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from *quantum computing* to *chaos theory*. He could tell you about it, but THAT would NOT be a *length-limited* conversation!",
+		"name": "John Noonan",
+		"label": "Creative Technologist",
+		"email": "contactjohnnoonan@gmail.com",
+		"url": "https://johnenoonan.github.io/",
+		"summary": "I contribute to amazing experiences by creating tools, applications, research, art, and interactive media.",
 		"location": {
-			"city": "San Francisco",
-			"countryCode": "US",
-			"region": "California"
+			"city": "New York",
+			"region": "New York"
 		},
 		"profiles": [
 			{
-				"url": "https://gitplace.com/rhendricks"
+				"url": "https://github.com/JohnENoonan"
 			},
 			{
-				"url": "https://linkedon.com/richardh"
+				"url": "https://www.linkedin.com/in/john-noonan/"
 			}
 		]
 	},
 	"work": [
 		{
-			"name": "Facebook",
-			"location": "California, United States",
-			"position": "Principal Software Engineer",
-			"url": "http://facebook.com",
-			"startDate": "2016-11-17",
-			"summary": "*Facebook* is an American social media conglomerate corporation based in *Menlo Park, California*. It was founded by **Mark Zuckerberg**, along with his fellow roommates and students at Harvard College, who were Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes, originally as TheFacebook.com—today's Facebook, a popular global social networking website",
+			"name": "HUSH",
+			"location": "Brooklyn, New York",
+			"position": "Creative Technologist",
+			"url": "https://heyhush.com",
+			"startDate": "2019-09-03",
+			"summary": "Working on projects ranging from procedural animation systems, a robust VR previsualization tool, to a machine learning pipeline to process terrabytes of video and much more.",
 			"highlights": [
-				"Vitae purus faucibus ornare suspendisse",
-				"Ut enim blandit volutpat maecenas",
-				"Volutpat blandit aliquam",
-				"Ultrices gravida dictum fusce ut placerat",
-				"Elit duis tristique sollicitudin nibh",
-				"Habitant morbi tristique senectus et netus",
-				"Luctus accumsan tortor posuere ac ut consequat"
+				"Contributed to concepting, scoping, R&D, design, and production.",
+				"Using tools such as TouchDesigner, openFrameworks, Unity/Unreal, Cinder, Spark AR, Machine Learning, Vue.js, Processing, After Effects, and more."
 			]
 		},
 		{
-			"name": "Amazon",
-			"location": "Washington, United States",
-			"position": "Senior Software Engineer",
-			"url": "http://amazon.com",
-			"startDate": "2013-07-23",
-			"endDate": "2016-11-16",
-			"summary": "*Amazon.com* is an American multinational technology company based in *Seattle, Washington*, which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. The company has been referred to as *one of the most influential economic and cultural forces in the world*, as well as the world's most valuable brand.",
+			"name": "Blue Sky Studios",
+			"location": "Greenwich, Connecticut",
+			"position": "Research & Development Intern",
+			"url": "https://en.wikipedia.org/wiki/Blue_Sky_Studios",
+			"startDate": "2018-06-01",
+			"endDate": "2018-08-01",
+			"summary": "Used machine learning to create a program that estimates final shot render time without doing test renders.",
 			"highlights": [
-				"Massa id neque aliquam vestibulum morbi",
-				"Consectetur adipiscing elit",
-				"Sed do eiusmod tempor incididunt ut labore",
-				"Mattis vulputate enim nulla aliquet porttitor",
-				"incididunt ut labore et dolore magna aliqua",
-				"Lacus luctus accumsan tortor"
+		        "The program identifies problematic shots before render time so they can be optimized, gives an estimate on the total time to render the shot, and allows for render TDs to better allocate their time.",
+		        "Implemented in Python, using scikit-learn to create a model trained on historic film render data."
 			]
 		},
 		{
-			"name": "Netflix",
-			"location": "California, United States",
-			"position": "Junior Software Engineer",
-			"url": "http://netflix.com",
-			"startDate": "2010-02-14",
-			"endDate": "2013-07-22",
-			"summary": "*Netflix* is an American over-the-top content platform and production company headquartered in *Los Gatos, California*. Netflix was founded in 1997 by **Reed Hastings** and **Marc Randolph** in *Scotts Valley, California*. The company's primary business is a subscription-based streaming service offering online streaming from a library of films and television series, including those produced in-house.",
+			"name": "MARQ",
+			"location": "Troy, New York",
+			"position": "Programmer and Designer",
+			"url": "https://github.com/JohnENoonan/MARQUnity",
+			"startDate": "2017-09-01",
+			"endDate": "2018-09-01",
+			"summary": "Metaliteracy Augmented Reality Quest (MARQ) is a research project at RPI led by Dr. Spina-Caza. The goal of the project is to teach new students how to use the library and conduct quality research while also teaching the history of RPI.",
 			"highlights": [
-				"Posuere sollicitudin aliquam ultrices",
-				"Porttitor rhoncus dolor purus",
-				"Aliquam sem et tortor consequat",
-				"Pellentesque dignissim enim sit",
-				"Hendrerit dolor magna eget est"
+				"Worked in a team of professors and other students to create an augmented reality quest game.",
+				"Served as a game designer and sole developer. The android game is implemented using Unity and Vuforia.",
+				"Created a functional game demo to show off key aspects and ideas of the project."
 			]
 		},
 		{
-			"name": "Google",
-			"location": "California, United States",
-			"position": "Software Engineer Intern",
-			"url": "http://google.com",
-			"startDate": "2009-09-13",
-			"endDate": "2010-02-13",
-			"summary": "*Google* is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware. It is considered one of the Big Five technology companies in the U.S. information technology industry, alongside Amazon, Facebook, Apple, and Microsoft.",
+			"name": "Monadnock Media Inc",
+			"location": "Hatefield, Massachusetts",
+			"position": "Interactive Media Development Intern",
+			"url": "https://monadnock.org/",
+			"startDate": "2017-05-01",
+			"endDate": "2017-08-15",
+			"summary": "I Worked in a team to create a group interactive light sculpture composed of canvas with thousands of LEDs controlled by user movement that is currently installed as the center piece in the Mississippi Civil Rights Museum.",
 			"highlights": [
-				"Ut pharetra sit amet aliquam id diam",
-				"Vitae congue eu consequat ac",
-				"Cursus sit amet dictum sit amet"
-			]
-		}
-	],
-	"projects": [
-		{
-			"name": "Node.js",
-			"description": "*Node.js* is an open-source, cross-platform, back-end JavaScript runtime environment that executes JavaScript code outside a web browser.",
-			"highlights": [
-				"Commodo elit at imperdiet dui",
-				"Id volutpat lacus laoreet non",
-				"Accumsan lacus vel facilisis"
-			],
-			"url": "https://nodejs.org/",
-			"roles": [
-				"contributor",
-				"evangelist"
+				"Using the Kinect API, Java, Processing library, and JSON, I designed and implemented multiple gesture interactive animations displayed on the sculpture along with real-time GUIs used to tune parameters.",
+				"Created a GUI to interactively control the shader based blending of layers of animation and to display the blended animation on a 3D model of the sculpture for testing and look development purposes."
 			]
 		},
 		{
-			"name": "Deno",
-			"description": "*Deno* is a runtime for JavaScript and TypeScript that is based on the V8 JavaScript engine and the Rust programming language. It was created by **Ryan Dahl**, original creator of Node.js, and is focused on productivity. It was announced by Dahl in 2018 during his talk \"*10 Things I Regret About Node.js*\".",
-			"highlights": [
-				"Vitae tempus quam pellentesque",
-				"Dui accumsan sit amet nulla",
-				"Ultrices vitae auctor eu augue",
-				"Scelerisque felis imperdiet",
-				"Pellentesque dignissim enim sit"
-			],
-			"url": "https://deno.land/",
-			"roles": [
-				"creator"
+			"name": "UMass Fungal Comparative Genomics Lab",
+			"location": "Amherst, Massachusetts",
+			"position": "Full Stack Developer",
+			"url": "https://www.umass.edu/comparativegenomics/People.html",
+			"startDate": "2018-06-01",
+			"endDate": "2018-08-15",
+			"summary": "Created a custom interactive NCBI BLAST query platform for Dr. Li-Jun Ma’s research lab with the purpose of simplifying gene sequencing query practices.",
+			"highlights": [				
+				"Converted command-line tools into more usable web-based ones that present the results in an easy to handle format.",
+				"Utilized Python, HTML/CSS, and basic JavaScript. The program is currently being used as a tool for Fusarium research."
 			]
 		}
 	],
@@ -122,99 +90,64 @@
 		{
 			"name": "Languages",
 			"keywords": [
-				"Java",
 				"Python",
-				"Javascript",
-				"Rust",
-				"Golang"
+				"C++",
+				"C#",
+				"GLSL",
+				"HTML/CSS"
 			]
 		},
 		{
 			"name": "Frameworks",
 			"keywords": [
-				"Spring",
-				"Django",
-				"Express"
+				"TouchDesigner",
+				"openFrameworks",
+				"Unity",
+				"Unreal Engine",
+				"Cinder",
+				"Processing"
 			]
 		},
 		{
-			"name": "Tools",
+			"name": "Software",
 			"keywords": [
-				"VS Code",
-				"Intellij IDEA"
+				"Houdini",
+				"Renderman",
+				"Arnold",
+				"After Effects",
+				"Photoshop",
+				"Spark AR"
+
 			]
 		},
 		{
 			"name": "Technologies",
 			"keywords": [
-				"Docker",
-				"Kubernetes",
-				"AWS"
-			]
-		},
-		{
-			"name": "Other",
-			"keywords": [
-				"Open source",
-				"XP"
+				"Git",
+				"AWS",
+				"Postgres"
 			]
 		}
 	],
 	"education": [
 		{
-			"institution": "University of Stanford",
-			"url": "https://www.stanford.edu/",
-			"area": "Computer Science",
-			"studyType": "Master"
-		},
-		{
-			"institution": "University of Oklahoma",
-			"url": "https://www.ou.edu/",
-			"area": "Information Technology",
-			"studyType": "Bachelor"
-		}
-	],
-	"certificates": [
-		{
-			"name": "AWS Certified Solutions\n\n Architect - Professional",
-			"url": "https://www.your-badge.com",
-			"issuer": "Amazon Web Services"
-		}
-	],
-	"awards": [
-		{
-			"title": "Website of the day",
-			"awarder": "Awwward",
-			"summary": "Received for my website [domain.com](domain.com)"
-		},
-		{
-			"title": "Java Champion",
-			"awarder": "Oracle",
-			"summary": "Obtained thanks to my contributions \n\n to the Java community."
-		}
-	],
-	"languages": [
-		{
-			"language": "English",
-			"fluency": "Native"
-		},
-		{
-			"language": "Russian",
-			"fluency": "Professional"
+			"institution": "Rensselaer Polytechnic Institute",
+			"area": "Dual Computer Science & Electronic Media, Arts, and Communication (EMAC)",
+			"studyType": "BS",
+			"startDate": "2015-09-01",
+    		"endDate": "2019-05-15",
+    		"score": "Magna Cum Laude"
 		}
 	],
 	"interests": [
 		{
-			"name": "Pixelart"
+			"name": "Computer Graphics"
 		},
 		{
-			"name": "Open Source"
+			"name": "Data Visualization"
 		},
 		{
-			"name": "Gardening"
-		},
-		{
-			"name": "Writing"
+			"name": "Interactive Technologies"
 		}
 	],
 	"meta": {
