@@ -3,11 +3,20 @@
 Minimalist and modern theme for [JSON Resume](https://jsonresume.org/) standard, designed for
 the [v1.0.0 version](https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json).
 
+- Only meaningful information
+- Single color
+- Single font-family
+- Single page? Up to you!
+
 ### Export examples
+
 - [Extended version](docs/resume_extended.pdf)
 - [Simple version](docs/resume_simple.pdf)
 
-Maybe you would like to take a look at [jsonresume-theme-actual-letter](https://github.com/davcd/jsonresume-theme-actual-letter) to create your letter.
+Maybe you would like to take a look at
+[jsonresume-theme-actual-letter](https://github.com/davcd/jsonresume-theme-actual-letter)
+to create your letter.
+
 ## Table of contents
 
 - [What is JSON Resume?](#what-is-json-resume)
@@ -65,7 +74,7 @@ This theme supports the following JSON paths
     "label": "Software Developer",
     "email": "rhendriks@mail.com",
     "phone": "(912) 555-4321",
-    "url": "http://richardh.example.com",
+    "url": "https://www.richardh.example.com",
     "summary": "Lorem ipsum...",
     "location": {
       "city": "San Francisco",
@@ -93,8 +102,9 @@ This theme supports the following JSON paths
       "name": "Facebook",
       "location": "California, United States",
       "position": "Software Engineer",
-      "url": "http://facebook.com",
+      "url": "https://www.facebook.com/",
       "startDate": "2016-11-17",
+      "endDate": "2018-07-22",
       "summary": "Lorem ipsum...",
       "highlights": [
         "Vitae purus faucibus ornare suspendisse",
@@ -107,42 +117,28 @@ This theme supports the following JSON paths
 
 - `resume.work.summary` supports markdown
 
-### `resume.projects`
+### `resume.volunteer`
 
 ```json
 {
-  "projects": {
-    "name": "Node.js",
-    "description": "Lorem ipsum...",
-    "highlights": [
-      "Commodo elit at imperdiet dui",
-      "Id volutpat lacus laoreet non"
-    ],
-    "url": "https://nodejs.org/",
-    "roles": [
-      "contributor",
-      "evangelist"
-    ]
-  }
-}
-```
-- `resume.projects.description` supports markdown
-
-### `resume.skills`
-
-```json
-{
-  "skills": [
+  "volunteer": [
     {
-      "name": "Languages",
-      "keywords": [
-        "Java",
-        "Python"
+      "organization": "Animal Refuge",
+      "position": "Supervisor",
+      "url": "https://example.com/",
+      "startDate": "2012-10-11",
+      "endDate": "2014-12-24",
+      "summary": "Lorem ipsum...",
+      "highlights": [
+        "Maecenas at dictum sem",
+        "Ut ac ex ac ipsum commodo"
       ]
     }
   ]
 }
 ```
+
+- `resume.volunteer.summary` supports markdown
 
 ### `resume.education`
 
@@ -159,23 +155,7 @@ This theme supports the following JSON paths
 }
 ```
 
-- `resume.work.area` and `resume.work.studyType` supports markdown
-
-### `resume.certificates`
-
-```json
-{
-  "certificates": [
-    {
-      "name": "AWS Certified Solutions Architect",
-      "url": "https://www.your-badge.com",
-      "issuer": "Amazon Web Services"
-    }
-  ]
-}
-```
-
-- `resume.certificates.name` supports markdown
+- `resume.education.area` and `resume.education.studyType` supports markdown
 
 ### `resume.awards`
 
@@ -190,7 +170,58 @@ This theme supports the following JSON paths
   ]
 }
 ```
+
 - `resume.awards.summary` supports markdown
+
+### `resume.certificates`
+
+```json
+{
+  "certificates": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "url": "https://www.your-badge.com"
+    }
+  ]
+}
+```
+
+- `resume.certificates.name` supports markdown
+
+### `resume.publications`
+
+```json
+{
+  "publications": [
+    {
+      "name": "Chasing the Higgs Boson",
+      "publisher": "The New York Times",
+      "releaseDate": "2013-03-04",
+      "url": "https://www.nytimes.com/",
+      "summary": "Lorem ipsum..."
+    }
+  ]
+}
+```
+
+- `resume.publications.summary` supports markdown
+
+### `resume.skills`
+
+```json
+{
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [
+        "Java",
+        "Python"
+      ]
+    }
+  ]
+}
+```
 
 ### `resume.languages`
 
@@ -217,4 +248,39 @@ This theme supports the following JSON paths
 }
 ```
 
-#### `resume.references`, `resume.volunteer` and `resume.publications` fields are not supported yet.
+### `resume.references`
+
+```json
+{
+  "references": [
+    {
+      "name": "Robert C. Martin",
+      "reference": "Lorem ipsum..."
+    }
+  ]
+}
+```
+
+### `resume.projects`
+
+```json
+{
+  "projects": {
+    "name": "Node.js",
+    "description": "Lorem ipsum...",
+    "highlights": [
+      "Commodo elit at imperdiet dui",
+      "Id volutpat lacus laoreet non"
+    ],
+    "startDate": "2011-08-26",
+    "endDate": "2018-05-12",
+    "url": "https://nodejs.org/",
+    "roles": [
+      "contributor",
+      "evangelist"
+    ]
+  }
+}
+```
+
+- `resume.projects.description` supports markdown

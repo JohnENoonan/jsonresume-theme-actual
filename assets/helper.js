@@ -27,14 +27,25 @@ const calcLocation = (location) => {
   return array.length > 0 ? array.join(', ') : null
 }
 
+const calcDate = (date) => {
+  return date ? beautifyDate(date) : null
+}
+
 const calcDateRange = (start, end) => {
   const array = []
 
-  if (start) {
-    array.push(beautifyDate(start))
-  }
+  const startDate = calcDate(start)
+  const endDate = calcDate(end)
 
-  array.push(end ? beautifyDate(end) : 'Present')
+  if (startDate && endDate) {
+    array.push(startDate, endDate)
+  } else if (startDate) {
+    array.push(startDate, 'Present')
+  } else if (endDate) {
+    array.push(endDate)
+  } else {
+    return null
+  }
 
   return array.join(' - ')
 }
@@ -71,6 +82,7 @@ const validArray = (array) => array !== undefined && array.length > 0
 module.exports = {
   mdToHtml,
   calcLocation,
+  calcDate,
   calcDateRange,
   beautifyDate,
   beautifyArray,
