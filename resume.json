@@ -26,10 +26,11 @@
 			"position": "Creative Technologist",
 			"url": "https://heyhush.com",
 			"startDate": "2019-09-03",
-			"summary": "Working on projects ranging from procedural animation systems, a robust VR previsualization tool, to a machine learning pipeline to process terrabytes of video and much more.",
+			"summary": "Working on projects ranging from interactive site specific apps, procedural animation systems, a VR previsualization tool, to a machine learning pipeline to process terrabytes of video and much more.",
 			"highlights": [
-				"Contributed to concepting, scoping, R&D, design, and production.",
-				"Using tools such as TouchDesigner, openFrameworks, Unity/Unreal, Cinder, Spark AR, Machine Learning, Vue.js, Processing, After Effects, and more."
+				"Contributing to concepting, scoping, R&D, design, and production.",
+				"Serving as technical lead on permant installations and popups through deployment.",
+				"Using tools such as TouchDesigner, openFrameworks, Unity/Unreal, Cinder, Spark AR, Processing, After Effects, and more."
 			]
 		},
 		{
@@ -54,7 +55,7 @@
 			"endDate": "2018-09-01",
 			"summary": "Metaliteracy Augmented Reality Quest (MARQ) is a research project at RPI led by Dr. Spina-Caza. The goal of the project is to teach new students how to use the library and conduct quality research while also teaching the history of RPI.",
 			"highlights": [
-				"Worked in a team of professors and other students to create an augmented reality quest game.",
+				"Worked in a team of professors and other students to create an augmented reality game.",
 				"Served as a game designer and sole developer. The android game is implemented using Unity and Vuforia.",
 				"Created a functional game demo to show off key aspects and ideas of the project."
 			]
@@ -66,7 +67,7 @@
 			"url": "https://monadnock.org/",
 			"startDate": "2017-05-01",
 			"endDate": "2017-08-15",
-			"summary": "I Worked in a team to create a group interactive light sculpture composed of canvas with thousands of LEDs controlled by user movement that is currently installed as the center piece in the Mississippi Civil Rights Museum.",
+			"summary": "I Worked in a team to create a group interactive light sculpture composed of canvas with thousands of LEDs controlled by user movement. It is installed as the center piece in the Mississippi Civil Rights Museum.",
 			"highlights": [
 				"Using the Kinect API, Java, Processing library, and JSON, I designed and implemented multiple gesture interactive animations displayed on the sculpture along with real-time GUIs used to tune parameters.",
 				"Created a GUI to interactively control the shader based blending of layers of animation and to display the blended animation on a 3D model of the sculpture for testing and look development purposes."
@@ -91,9 +92,9 @@
 			"name": "Languages",
 			"keywords": [
 				"Python",
-				"C++",
-				"C#",
 				"GLSL",
+				"C++",
+				"C#",				
 				"HTML/CSS"
 			]
 		},
@@ -104,8 +105,8 @@
 				"openFrameworks",
 				"Unity",
 				"Unreal Engine",
-				"Cinder",
-				"Processing"
+				"Processing",
+				"Cinder"
 			]
 		},
 		{
@@ -117,7 +118,6 @@
 				"After Effects",
 				"Photoshop",
 				"Spark AR"
-
 			]
 		},
 		{
@@ -141,14 +141,21 @@
 	],
 	"interests": [
 		{
+			"name": "Interactive Technologies"
+		},
+		{
 			"name": "Computer Graphics"
 		},
 		{
 			"name": "Data Visualization"
 		},
 		{
-			"name": "Interactive Technologies"
+			"name": "3D Animation"
+		},
+		{
+			"name": "Learning Through Play"
 		}
+
 	],
 	"meta": {
 		"canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
