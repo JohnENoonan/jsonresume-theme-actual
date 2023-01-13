@@ -26,9 +26,9 @@
 			"position": "Creative Technologist",
 			"url": "https://heyhush.com",
 			"startDate": "2019-09-03",
-			"summary": "Working on projects ranging from interactive site-specific apps, procedural animation systems, a VR previsualization tool, to a machine learning pipeline to process terabytes of video and much more.",
+			"summary": "Working on projects ranging from interactive site-specific apps, procedural animation systems, a VR previsualization tool, to a machine-learning pipeline to process terabytes of video and much more.",
 			"highlights": [
-				"Contributing to concepting, scoping, R&D, design, and production.",
+				"Contributing to concepting, prototyping, scoping, R&D, design, and production.",
 				"Serving as technical lead on permanent installations and popups through deployment.",
 				"Using tools such as TouchDesigner, openFrameworks, Unity/Unreal, Cinder, Spark AR, Processing, After Effects, and more."
 			]
@@ -67,7 +67,7 @@
 			"url": "https://monadnock.org/",
 			"startDate": "2017-05-01",
 			"endDate": "2017-08-15",
-			"summary": "I Worked in a team to create a group interactive light sculpture composed of canvas with thousands of LEDs controlled by user movement. It is installed as the centerpiece in the Mississippi Civil Rights Museum.",
+			"summary": "I worked in a team to create a group interactive light sculpture composed of canvas with thousands of LEDs controlled by user movement. It is installed as the centerpiece in the Mississippi Civil Rights Museum.",
 			"highlights": [
 				"Using the Kinect API, Java, and Processing library I designed and implemented multiple gesture interactive animations displayed on the sculpture along with real-time GUIs used to tune parameters.",
 				"Created a GUI to interactively control the shader based blending of layers of animation and to display the blended animation on a 3D model of the sculpture for testing and look development purposes."
@@ -78,8 +78,8 @@
 			"location": "Amherst, Massachusetts",
 			"position": "Full Stack Developer",
 			"url": "https://www.umass.edu/comparativegenomics/People.html",
-			"startDate": "2018-06-01",
-			"endDate": "2018-08-15",
+			"startDate": "2016-06-01",
+			"endDate": "2016-08-15",
 			"summary": "Created a custom interactive NCBI BLAST query platform for Dr. Li-Jun Ma’s research lab with the purpose of simplifying gene sequencing query practices.",
 			"highlights": [				
 				"Converted command-line tools into more usable web-based ones that present the results in an easy to handle format.",
@@ -156,7 +156,6 @@
 		{
 			"name": "Learning Through Play"
 		}
-
 	],
 	"meta": {
 		"canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
