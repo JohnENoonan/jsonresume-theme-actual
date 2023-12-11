@@ -5,7 +5,7 @@
 		"label": "Creative Technologist",
 		"email": "contactjohnnoonan@gmail.com",
 		"url": "https://johnenoonan.github.io/",
-		"summary": "I contribute to amazing experiences by creating interactive media, tools, applications, art, and research.",
+		"summary": "I use computers to tell stories and create unique experiences. I do this through my own art and by creating tools that can better facilitate meaningful creation for others. Whether it's developing cutting-edge software or crafting computer graphics, I am dedicated to fostering a rich environment where the fusion of technology and artistry flourishes through art driven tools, interactive media, applications, graphics, and research.",
 		"location": {
 			"city": "New York",
 			"region": "New York"
@@ -26,11 +26,12 @@
 			"position": "Creative Technologist",
 			"url": "https://heyhush.com",
 			"startDate": "2019-09-03",
-			"summary": "Working on projects ranging from interactive site-specific apps, procedural animation systems, a VR previsualization tool, to a machine-learning pipeline to process terabytes of video and much more.",
+			"endDate": "2023-10-27",
+			"summary": "Worked on projects ranging from interactive site-specific apps, procedural animation systems, a VR previsualization tool, to a machine-learning pipeline to process terabytes of video and much more.",
 			"highlights": [
-				"Contributing to concepting, prototyping, scoping, R&D, design, and production.",
-				"Serving as technical lead on permanent installations and popups through deployment.",
-				"Using tools such as TouchDesigner, openFrameworks, Unity/Unreal, Houdini, Cinder, After Effects, and more."
+				"Contributed to concepting, prototyping, scoping, R&D, design, and production.",
+				"Served as technical lead on permanent installations and popups through deployment.",
+				"Used tools such as TouchDesigner, openFrameworks, Unity/Unreal, Houdini, Cinder, After Effects, and more."
 			]
 		},
 		{
@@ -92,8 +93,8 @@
 			"name": "Languages",
 			"keywords": [
 				"Python",
-				"GLSL",
 				"C++",
+				"GLSL",
 				"C#",				
 				"HTML/CSS"
 			]
@@ -125,7 +126,7 @@
 			"name": "Technologies",
 			"keywords": [
 				"Git",
-				"AWS",
+				"Linux",
 				"Postgres"
 			]
 		}
@@ -154,7 +155,7 @@
 			"name": "3D Animation"
 		},
 		{
-			"name": "Learning Through Play"
+			"name": "Visual Effects"
 		}
 	],
 	"meta": {
